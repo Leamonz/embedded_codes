@@ -53,3 +53,6 @@ dkms.conf
 
 
 define.txt
+
+# 编译产生的目标文件
+OBJ/
