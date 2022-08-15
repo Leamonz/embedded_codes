@@ -1,28 +1,31 @@
 #ifndef __LED_H
 #define __LED_H
-#include "stm32f10x.h"
-void LED_Init(void);
 
-typedef struct
-{
+#define RED GPIO_Pin_7
+#define GREEN GPIO_Pin_8
+#define YELLOW GPIO_Pin_12
+#define BLUE GPIO_Pin_10
+
+struct LED_Status{
 	_Bool LED1_Sta;
 	_Bool LED2_Sta;
 	_Bool LED3_Sta;
 	_Bool LED4_Sta;
-}LED_Status;
+};
 
-extern LED_Status led_status;
+extern struct LED_Status led_status;
 
-typedef enum
-{
+enum LED_ENUM{
 	LED_OFF = 0,
 	LED_ON
-}LED_ENUM;
+};
 
-void LED1_Set(LED_ENUM status);
-void LED2_Set(LED_ENUM status);
-void LED3_Set(LED_ENUM status);
-void LED4_Set(LED_ENUM status);
+void LED_Init(void);
 
+
+void LED1Set(enum LED_ENUM status);
+void LED2Set(enum LED_ENUM status);
+void LED3Set(enum LED_ENUM status);
+void LED4Set(enum LED_ENUM status);
 
 #endif
