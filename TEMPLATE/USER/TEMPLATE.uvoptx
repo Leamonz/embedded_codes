@@ -538,7 +538,7 @@
 
   <Group>
     <GroupName>SYSTEM</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -549,7 +549,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>D:\DeskTop\嵌入式大赛\2，标准例程-库函数版本\实验1 跑马灯实验\SYSTEM\delay\delay.c</PathWithFileName>
+      <PathWithFileName>..\SYSTEM\src\delay.c</PathWithFileName>
       <FilenameWithoutPath>delay.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -561,7 +561,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>D:\DeskTop\嵌入式大赛\2，标准例程-库函数版本\实验1 跑马灯实验\SYSTEM\sys\sys.c</PathWithFileName>
+      <PathWithFileName>..\SYSTEM\src\sys.c</PathWithFileName>
       <FilenameWithoutPath>sys.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -573,7 +573,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>D:\DeskTop\嵌入式大赛\2，标准例程-库函数版本\实验1 跑马灯实验\SYSTEM\usart\usart.c</PathWithFileName>
+      <PathWithFileName>..\SYSTEM\src\usart.c</PathWithFileName>
       <FilenameWithoutPath>usart.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>

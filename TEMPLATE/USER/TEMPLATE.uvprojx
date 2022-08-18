@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_HD,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\USER;..\CORE;..\STM32F10x_FWLib\inc;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart</IncludePath>
+              <IncludePath>..\USER;..\CORE;..\STM32F10x_FWLib\inc;..\SYSTEM\inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -541,17 +541,17 @@
             <File>
               <FileName>delay.c</FileName>
               <FileType>1</FileType>
-              <FilePath>D:\DeskTop\嵌入式大赛\2，标准例程-库函数版本\实验1 跑马灯实验\SYSTEM\delay\delay.c</FilePath>
+              <FilePath>..\SYSTEM\src\delay.c</FilePath>
             </File>
             <File>
               <FileName>sys.c</FileName>
               <FileType>1</FileType>
-              <FilePath>D:\DeskTop\嵌入式大赛\2，标准例程-库函数版本\实验1 跑马灯实验\SYSTEM\sys\sys.c</FilePath>
+              <FilePath>..\SYSTEM\src\sys.c</FilePath>
             </File>
             <File>
               <FileName>usart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>D:\DeskTop\嵌入式大赛\2，标准例程-库函数版本\实验1 跑马灯实验\SYSTEM\usart\usart.c</FilePath>
+              <FilePath>..\SYSTEM\src\usart.c</FilePath>
             </File>
           </Files>
         </Group>
