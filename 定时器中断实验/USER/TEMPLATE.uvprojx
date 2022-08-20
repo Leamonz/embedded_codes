@@ -7,7 +7,7 @@
 
   <Targets>
     <Target>
-      <TargetName>Template</TargetName>
+      <TargetName>TIM_IRQ</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
       <pCCUsed>5060960::V5.06 update 7 (build 960)::.\ARMCC</pCCUsed>
@@ -552,6 +552,21 @@
               <FileName>usart.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\SYSTEM\src\usart.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>HARDWARE</GroupName>
+          <Files>
+            <File>
+              <FileName>TIM_INT.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\src\TIM_INT.c</FilePath>
+            </File>
+            <File>
+              <FileName>led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\src\led.c</FilePath>
             </File>
           </Files>
         </Group>
